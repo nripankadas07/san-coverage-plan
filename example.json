@@ -1,0 +1,34 @@
+{
+  "hosts": [
+    "api.example.com",
+    "www.example.com",
+    "deep.api.example.com",
+    "192.0.2.10"
+  ],
+  "certificates": [
+    {
+      "id": "wide",
+      "dns": [
+        "*.example.com"
+      ],
+      "cost": 8
+    },
+    {
+      "id": "api",
+      "dns": [
+        "api.example.com"
+      ],
+      "cost": 2
+    },
+    {
+      "id": "www-and-ip",
+      "dns": [
+        "www.example.com"
+      ],
+      "ip": [
+        "192.0.2.10"
+      ],
+      "cost": 2
+    }
+  ]
+}
